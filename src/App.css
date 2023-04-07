@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200;300&display=swap');
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Neucha', cursive;
+    background-color: #2f74c0;
+}
+
+.heading {
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    margin: 30px 0;
+    z-index: 1;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .heading {
+        font-size: 35px;
+        margin: 15px 0;
+    }
+}
